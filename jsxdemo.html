@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+     const  createUI=()=>{
+        return(
+          <div>
+            <h2>REACT ELEMENT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero inventore ipsum laboriosam earum explicabo quidem unde saepe hic repellendus, magni minima. Ducimus, suscipit corporis eligendi nesciunt id sapiente molestiae quibusdam.</p>
+            <button>REACT BUTTON</button>
+            </div>
+        );
+      }
+      
+   ReactDOM.render(createUI(),document.getElementById("root"));
+</script>
+</body>
+</html>

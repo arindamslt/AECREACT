@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeToH2()
+        {
+           var h2Ref=document.getElementById("domh");
+           h2Ref.innerText="DOM MANIPULATION BY JAVASCRIPT";
+
+        }
+       /* function changeToP()
+        {
+            var pRef=document.getElementById("domp");
+            pRef.innerText="WELCOME TO JAVASCRIPT";
+        }*/
+        const changeToP=()=>{
+            var pRef=document.getElementById("domp");
+            pRef.innerText="WELCOME TO JAVASCRIPT";
+        }
+    </script>
+</head>
+<body>
+  <div id="root">
+    <h2 id="domh">DOM MANIPULATION</h2>
+    <p id="domp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ex amet omnis quasi eligendi ratione molestiae neque exercitationem saepe enim. Ullam magni eligendi consectetur incidunt impedit totam quod ratione consequatur excepturi voluptatibus. Harum voluptas facere officiis accusantium hic qui architecto quas voluptates laboriosam consequatur porro sed adipisci, perferendis nesciunt odit asperiores rerum numquam. Error incidunt, obcaecati magni quaerat aperiam perspiciatis quia, dicta ea nisi dignissimos quis numquam doloremque tempora at mollitia sapiente a voluptate dolorum qui? Qui facilis aliquid eum provident nihil laudantium illo nostrum ad natus possimus id, vel sit nisi itaque repudiandae quo dolore cupiditate numquam? Autem, molestias.</p>
+    <button onclick="changeToH2()">CHANGEH2</button>
+    <button onclick="changeToP()">CHANGEP</button>
+  </div>  
+</body>
+</html>
